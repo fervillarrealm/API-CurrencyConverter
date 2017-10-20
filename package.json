@@ -1,0 +1,21 @@
+{
+  "name": "api-currencyconverter",
+  "version": "1.0.0",
+  "description": "api for getting currency data",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fervillarrealm/API-CurrencyConverter.git"
+  },
+  "author": "Fernando Villarreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fervillarrealm/API-CurrencyConverter/issues"
+  },
+  "homepage": "https://github.com/fervillarrealm/API-CurrencyConverter#readme"
+}
