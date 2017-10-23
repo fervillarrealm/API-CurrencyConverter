@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "api for getting currency data",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "jsdom": "11.3.0",
+    "jsondom": "0.4.1",
+    "method-override": "2.3.10",
+    "mongoose": "4.12.3",
+    "morgan": "1.9.0"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/currencyConverter"
   },
   "repository": {
     "type": "git",
