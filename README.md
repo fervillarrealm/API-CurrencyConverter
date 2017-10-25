@@ -1,8 +1,14 @@
 # API-CurrencyConverter
 
-api for getting in realtime conversions from google finance
+Api for getting realtime conversions from google finance api
 https://finance.google.com/finance/converter
 
-## Keroku APP
+### Keroku APP
 https://currencyconverterapi.herokuapp.com
 
+### Usage
+
+Get all currencys available
+´´´
+https://currencyconverterapi.herokuapp.com/api/currencys
+´´´
