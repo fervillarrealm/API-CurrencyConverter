@@ -9,6 +9,6 @@ https://currencyconverterapi.herokuapp.com
 ### Usage
 
 Get all currencys available
-´´´
+```
 https://currencyconverterapi.herokuapp.com/api/currencys
-´´´
+```
