@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>Currency Converter API</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main" class="container clean-top">
+      
+          <div class="col-md-12 col-xs-12">
+            <h1 class="text-center">Simple Currency Converter API</h1>
+            <hr>
+            <br>
+            <p>
+              Convert one currency to another that returns result in json format in real-time.
+            </p>
+            <br>
+            <h3>API Reference</h3>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="table-responsive">
+                  <table class="table table-condensed table-convert">
+                    <thead>
+                      <tr>
+                        <th>
+                          Method
+                        </th>
+                        <th>
+                          HTTP request
+                        </th>
+                        <th>
+                          Description
+                        </th>
+                        <th>
+                          Parameters
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="4">
+                          URI's relative to https://currencyconverterapi.herokuapp.com/
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-md-2">
+                          <a href="api/currencys">getAll</a>
+                        </td>
+                        <td class="col-md-4">
+                          <span>GET / api/currencys</span>
+                        </td>
+                        <td class="col-md-2">
+                          <p>
+                            List all currencys availables.
+                          </p>
+                        </td>
+                        <td class="col-md-4">
+                          <ul>
+                            <li><span>N/A</span></li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a href="api/currencys/1&USD&MXN">convertFromTo</a>
+                        </td>
+                        <td>
+                          <span>GET / api/currencys/
+                            <span class="emphasis">amount</span>&
+                            <span class="emphasis">from</span>&
+                            <span class="emphasis">to</span>
+                          </span>
+                        </td>
+                        <td>
+                          <p>
+                            Gets the specified currency conversion.
+                          </p>
+                        </td>
+                        <td>
+                          <ul>
+                            <li><span>amount:</span> <span> [Decimal] Cuantity to convert</span> </li>
+                            <li><span>from:</span> <span> [String] See currency's</span> </li>
+                            <li><span>to:</span> <span> [String] See currency's</span> </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table><!-- table -->
+                </div><!-- table-responsive -->
+                <hr>
+                <p class="quote">
+                  The content of this project is licensed under the MIT License.
+                </p>
+              </div><!-- col-md-12 -->
+            </div><!-- row -->
+          </div><!-- col-md-12 -->
+    </div><!-- main -->
+  </div><!-- #wrapper -->
+
+  <footer class="footer">
+    
+      <span class="text-muted">Hosted thanks to <a href="https://www.heroku.com/" target="_blank">Heroku</a>. Code is always available on <a href="https://github.com/fervillarrealm" target="_blank">GitHub</a>.</span>
+    
+  </footer><!-- footer -->
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
