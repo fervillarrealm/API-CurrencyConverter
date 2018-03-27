@@ -1,7 +1,6 @@
 # API-CurrencyConverter
 
-Api for getting realtime conversions from google finance api
-https://finance.google.com/finance/converter?a=1&from=USD&to=MXN
+Api for getting realtime conversions.
 
 ### Keroku APP
 https://currencyconverterapi.herokuapp.com
@@ -13,7 +12,12 @@ Get all currencys available
 https://currencyconverterapi.herokuapp.com/api/currencys
 ```
 
-|Method       |HTTP request             | Description                     |
-|-------------|-------------------------|---------------------------------|
-|getCurrency  | /api/currencys          | List the available currencys    |
-|convert      | /api/convert/
+|Method                                                                                 |HTTP request                               | Description                               |             |
+|---------------------------------------------------------------------------------------|-------------------------------------------|-------------------------------------------|-------------|
+|```
+https://currencyconverterapi.herokuapp.com
+```                                                                                 |HTTP request                               | Description                               |             |
+|[getAll](https://currencyconverterapi.herokuapp.com/api/currencys)                     | GET / api/currencys                       |  List all currencys availables.           |  N/A        |
+|[convertFromTo](https://currencyconverterapi.herokuapp.com/api/currencys/1&USD&MXN)    | 	GET / api/currencys/ amount& from& to   |  Gets the specified currency conversion.  |  amount: [Decimal] Cuantity to convert
+from: [String] See currency's
+to: [String] See currency's        |
